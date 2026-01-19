@@ -14,7 +14,7 @@ function App() {
         <Route path="/category/:categoryId" element={<ItemListContainer />} />
         <Route path="/item/:id" element={<ItemDetailContainer />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="*" element={<h2>404 - Página no encontrada</h2>} />
+        <Route path="*" element={<h2>Bienvenid@ a Alohomora Store</h2>} />
       </Routes>
     </>
   );
