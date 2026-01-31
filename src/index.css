@@ -86,7 +86,7 @@ button:focus-visible {
   }
 }
 
-/* 🔥 Reset global para que las imágenes NO se estiren */
+
 img {
   max-width: 100%;
   display: block;

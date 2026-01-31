@@ -24,12 +24,12 @@ function ItemDetail({ product, onAdd, added }) {
 
         <p className="detail-price">Precio: ${product.price}</p>
 
-        {/* 🔥 Si no hay stock */}
+        
         {product.stock === 0 ? (
           <p className="no-stock">Producto sin stock</p>
         ) : (
           <>
-            {/* 🔥 Si NO se agregó al carrito, mostrar ItemCount */}
+            
             {!added ? (
               <ItemCount
                 stock={product.stock}
@@ -37,7 +37,7 @@ function ItemDetail({ product, onAdd, added }) {
                 onAdd={onAdd}
               />
             ) : (
-              /* 🔥 Si YA se agregó, mostrar mensaje + botón */
+              
               <div className="detail-after-add">
                 <p className="success-msg">Producto agregado con éxito</p>
 
