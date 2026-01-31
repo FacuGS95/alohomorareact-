@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <nav className="navbar">
       <Link to="/" className="nav-logo">
-        <img src="/medios/alohomora.png" alt="logo" />
+        <img src="/alohomorareact-/medios/alohomora.png" alt="logo" />
       </Link>
 
       <div className="nav-links">
