@@ -1,30 +1,61 @@
 .navbar {
-  background: rgba(0, 0, 0, 0.3);
-  padding: 12px 24px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  height: 80px; /* AUMENTAMOS LA ALTURA */
+  padding: 0 16px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+/* LOGO */
+.nav-logo img {
+  height: 60px; /* AUMENTÁ ESTO A GUSTO */
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* LINKS */
+.nav-links {
+  display: flex;
   gap: 20px;
-  border-bottom: 2px solid #fdc500;
+  margin-left: auto;
 }
 
-.navbar a {
+.nav-links a {
   color: #fdc500;
-  font-weight: bold;
   text-decoration: none;
-  transition: 0.2s;
+  font-weight: 500;
 }
 
-.navbar a:hover {
-  color: #ffffff;
-  transform: scale(1.05);
-  filter: drop-shadow(0 0 6px #fdc500);
-  transform: scale(1.05);
-  transition: 0.3s;
+/* CARRITO */
+.nav-cart {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
 }
 
+.nav-cart img {
+  height: 28px;
+  width: auto;
+}
 
-.navbar img:hover {
-  filter: drop-shadow(0 0 6px #fdc500);
-  transform: scale(1.05);
-  transition: 0.3s;
+/* RESPONSIVE */
+@media (max-width: 480px) {
+  .navbar {
+    height: 70px; /* un poquito menos en mobile */
+  }
+
+  .nav-logo img {
+    height: 48px; 
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-cart img {
+    height: 24px;
+  }
 }

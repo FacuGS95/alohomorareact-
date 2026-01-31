@@ -28,7 +28,7 @@ body {
   padding: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url("/alohomorareact/medios/vistacastillo.jpg");
+  background-image: url("/medios/vistacastillo.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
