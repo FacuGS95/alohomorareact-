@@ -11,6 +11,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+
+  "homepage": "https://github.com/FacuGS95/alohomorareact-",
   "dependencies": {
     "firebase": "^12.8.0",
     "react": "^19.2.0",
