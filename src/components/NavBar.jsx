@@ -7,11 +7,10 @@ function NavBar() {
     <nav className="navbar">
       <Link to="/" className="nav-logo">
         <img
-          src={import.meta.env.BASE_URL + "medios/alohomora.png"}
+          src="/alohomorareact-/medios/alohomora.png"
           alt="logo"
         />
       </Link>
-
       <div className="nav-links">
         <Link to="/">Inicio</Link>
         <Link to="/category/varitas">Varitas</Link>
