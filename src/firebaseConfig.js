@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC45Zt21J4X1Xnzkdq3ASDyvjMd817PEto",
+  apiKey: "AIzaSyB0kJQxJ-JqX02MWQu6AJFuiNeJaVYn28s",
   authDomain: "hogwarts-react.firebaseapp.com",
   databaseURL: "https://hogwarts-react-default-rtdb.firebaseio.com",
   projectId: "hogwarts-react",
